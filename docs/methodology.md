@@ -26,18 +26,6 @@ The Wallet Risk Scoring System follows a **modular, pipeline-based architecture*
 - **Testability**: Each component independently testable
 - **Extensibility**: Easy to add new risk factors or data sources
 
-### Component Overview
-
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Data Collector │───▶│ Feature Engineer│───▶│ Risk Scorer │───▶│ Results Export │
-└─────────────────┘ └─────────────────┘ └─────────────────┘ └─────────────────┘
-│ │ │ │
-▼ ▼ ▼ ▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ - Etherscan API │ │ - Behavioral │ │ - Weighted │ │ - CSV Export │
-│ - The Graph │ │ - Liquidity │ │ Composite │ │ - JSON Reports │
-│ - Compound API │ │ - Market Risk │ │ - Score 0-1000 │ │ - Statistics │
-└─────────────────┘ └─────────────────┘ └─────────────────┘ └─────────────────┘
 ---
 
 ## Data Collection Methodology
