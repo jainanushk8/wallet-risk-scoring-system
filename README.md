@@ -39,7 +39,8 @@ Successfully processed **101 wallets** with perfect execution:
 ### Quick Start
 
 Clone the repository
-git clone https://github.com/yourusername/wallet-risk-scoring-system.git
+git clone https://github.com/jainanushk8/wallet-risk-scoring-system.git
+
 cd wallet-risk-scoring-system
 
 Create virtual environment
