@@ -1,4 +1,4 @@
-# 🎯 Wallet Risk Scoring System
+# Wallet Risk Scoring System
 
 A comprehensive DeFi wallet risk analysis system that processes blockchain transaction data to generate risk scores for lending protocol assessment.
 
@@ -6,27 +6,27 @@ A comprehensive DeFi wallet risk analysis system that processes blockchain trans
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 
-## 🚀 Overview
+## Overview
 
 This system analyzes wallet addresses on Ethereum blockchain to assess risk profiles for DeFi lending protocols. It processes transaction history from Compound V2/V3 protocols and generates risk scores using a weighted composite scoring methodology.
 
 ### Key Features
 
-- 🔍 **Multi-source Data Collection**: Etherscan API + The Graph + Compound API integration
-- ⚙️ **Advanced Feature Engineering**: 36+ risk indicators across behavioral, liquidity, and market categories
-- 📊 **Weighted Composite Scoring**: Transparent, interpretable risk assessment (0-1000 scale)
-- 🚀 **Production Ready**: Enterprise-grade error handling, logging, and monitoring
-- 🧪 **Comprehensive Testing**: 100% test coverage with validation suite
-- 💻 **Windows Optimized**: Lightweight, CPU-efficient processing
+- **Multi-source Data Collection**: Etherscan API + The Graph + Compound API integration
+- **Advanced Feature Engineering**: 36+ risk indicators across behavioral, liquidity, and market categories
+- **Weighted Composite Scoring**: Transparent, interpretable risk assessment (0-1000 scale)
+- **Production Ready**: Enterprise-grade error handling, logging, and monitoring
+- **Comprehensive Testing**: 100% test coverage with validation suite
+- **Windows Optimized**: Lightweight, CPU-efficient processing
 
-## 📈 Results
+## Results
 
 Successfully processed **101 wallets** with perfect execution:
 
-- **✅ 100% Success Rate**: All wallets processed without errors
-- **📊 Risk Distribution**: 41.6% low risk, 58.4% medium risk, 0% high risk
-- **🎯 Score Range**: 183-485 (well-calibrated, no extreme outliers)
-- **⚡ Performance**: ~4-8 seconds per wallet with rate limiting
+- **100% Success Rate**: All wallets processed without errors
+- **Risk Distribution**: 41.6% low risk, 58.4% medium risk, 0% high risk
+- **Score Range**: 183-485 (well-calibrated, no extreme outliers)
+- **Performance**: ~4-8 seconds per wallet with rate limiting
 
 ## 🛠️ Installation
 
@@ -65,9 +65,7 @@ python src/main.py --test
 Full production run
 python src/main.py
 
-text
-
-## 🎯 Usage
+## Usage
 
 ### Basic Usage
 
@@ -82,8 +80,6 @@ pipeline.collect_data()
 feature_data = pipeline.engineer_features()
 risk_scores = pipeline.calculate_risk_scores(feature_data)
 pipeline.generate_final_results()
-
-text
 
 ### Individual Components
 
@@ -104,9 +100,7 @@ scorer = WalletRiskScorer()
 risk_score = scorer.calculate_score(features)
 print(f"Risk Score: {risk_score}/1000")
 
-text
-
-## 📊 Methodology
+## Methodology
 
 ### Risk Scoring Approach
 
@@ -117,8 +111,6 @@ behavioral_score * 0.40 + # Transaction patterns, frequency, DeFi activity
 liquidity_score * 0.35 + # Collateral ratios, liquidation risk, leverage
 market_score * 0.25 # Portfolio concentration, diversification
 ) * 1000 # Scale to 0-1000
-
-text
 
 ### Feature Categories
 
@@ -147,7 +139,7 @@ text
 - **Performance**: Instant scoring without training overhead
 - **Scalability**: CPU-optimized for production deployment
 
-## 📁 Project Structure
+## Project Structure
 
 src/
 ├── main.py # Main execution pipeline
@@ -164,8 +156,6 @@ tests/
 notebooks/
 └── analysis.ipynb # Results analysis and visualization
 
-text
-
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -180,9 +170,7 @@ Data Collection Settings
 LOOKBACK_DAYS=365
 MIN_TRANSACTIONS=5
 
-text
-
-## 📊 Sample Results
+## Sample Results
 
 ### Risk Score Distribution
 
@@ -195,8 +183,6 @@ Risk Categories:
 ├── Medium Risk (251-750): 59 wallets (58.4%)
 └── High Risk (751-1000): 0 wallets (0.0%)
 
-text
-
 ### Top Risk Wallets
 
 | Rank | Wallet Address | Risk Score |
@@ -205,7 +191,7 @@ text
 | 2    | 0x427f2ac5fdf4245e027d767e7c3ac272a1f40a65 | 451 |
 | 3    | 0x70d8e4ab175dfe0eab4e9a7f33e0a2d19f44001e | 448 |
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 
@@ -215,16 +201,15 @@ python tests/test_risk_scorer.py # Risk scoring validation
 python tests/test_phase2.py # Integration testing
 
 All tests should show 100% pass rate
-text
 
-## 📈 Performance
+## Performance
 
 - **Processing Speed**: ~4-8 seconds per wallet
 - **Memory Usage**: Lightweight, optimized for standard hardware
 - **API Efficiency**: Rate-limited calls with retry logic
 - **Error Rate**: 0% (101/101 wallets processed successfully)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -232,17 +217,17 @@ text
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Compound Protocol** for DeFi infrastructure
 - **Etherscan** for blockchain data access
 - **The Graph Protocol** for decentralized indexing
 
-## 📞 Contact
+## Contact
 
 **Project Author**: Anushk Jain
-- 📧 Email: jainanushk8@gmail.com
-- 💼 LinkedIn: (https://www.linkedin.com/in/anushk-jain-bb7b71222/)
+- Email: jainanushk8@gmail.com
+- LinkedIn: (https://www.linkedin.com/in/anushk-jain-bb7b71222/)
 
 ---
 
