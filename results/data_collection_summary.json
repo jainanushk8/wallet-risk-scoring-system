@@ -1,0 +1,15 @@
+{
+  "collection_timestamp": "2025-07-27T17:21:27.890360",
+  "total_wallets": 101,
+  "wallets_with_data": 101,
+  "wallets_with_compound_activity": 37,
+  "total_transactions": 6403,
+  "total_compound_transactions": 220,
+  "data_quality_metrics": {
+    "data_collection_rate": 1.0,
+    "compound_activity_rate": 0.36633663366336633,
+    "avg_transactions_per_wallet": 63.396039603960396,
+    "avg_compound_transactions_per_wallet": 5.945945945945946
+  },
+  "error_analysis": {}
+}

@@ -1,0 +1,102 @@
+{
+  "total_wallets": 101,
+  "score_statistics": {
+    "mean": 272.33663366336634,
+    "median": 256.0,
+    "std": 65.80916003532073,
+    "min": 183,
+    "max": 485
+  },
+  "risk_distribution": {
+    "low_risk_count": 42,
+    "medium_risk_count": 59,
+    "high_risk_count": 0,
+    "low_risk_percentage": 41.584158415841586,
+    "medium_risk_percentage": 58.415841584158414,
+    "high_risk_percentage": 0.0
+  },
+  "top_risk_wallets": [
+    {
+      "wallet_id": "0x4814be124d7fe3b240eb46061f7ddfab468fe122",
+      "score": 485
+    },
+    {
+      "wallet_id": "0x427f2ac5fdf4245e027d767e7c3ac272a1f40a65",
+      "score": 451
+    },
+    {
+      "wallet_id": "0x70d8e4ab175dfe0eab4e9a7f33e0a2d19f44001e",
+      "score": 448
+    },
+    {
+      "wallet_id": "0xcbbd9fe837a14258286bbf2e182cbc4e4518c5a3",
+      "score": 446
+    },
+    {
+      "wallet_id": "0x0039f22efb07a647557c7c5d17854cfd6d489ef3",
+      "score": 435
+    },
+    {
+      "wallet_id": "0xa7f3c74f0255796fd5d3ddcf88db769f7a6bf46a",
+      "score": 412
+    },
+    {
+      "wallet_id": "0x8be38ea2b22b706aef313c2de81f7d179024dd30",
+      "score": 399
+    },
+    {
+      "wallet_id": "0xf340b9f2098f80b86fbc5ede586c319473aa11f3",
+      "score": 399
+    },
+    {
+      "wallet_id": "0x96479b087cb8f236a5e2dcbfc50ce63b2f421da6",
+      "score": 370
+    },
+    {
+      "wallet_id": "0x58d68d4bcf9725e40353379cec92b90332561683",
+      "score": 367
+    }
+  ],
+  "lowest_risk_wallets": [
+    {
+      "wallet_id": "0xa7e94d933eb0c439dda357f61244a485246e97b8",
+      "score": 183
+    },
+    {
+      "wallet_id": "0x7851bdfb64bbecfb40c030d722a1f147dff5db6a",
+      "score": 200
+    },
+    {
+      "wallet_id": "0x7b4636320daa0bc055368a4f9b9d01bd8ac51877",
+      "score": 201
+    },
+    {
+      "wallet_id": "0x578cea5f899b0dfbf05c7fbcfda1a644b2a47787",
+      "score": 202
+    },
+    {
+      "wallet_id": "0xf60304b534f74977e159b2e159e135475c245526",
+      "score": 202
+    },
+    {
+      "wallet_id": "0xf67e8e5805835465f7eba988259db882ab726800",
+      "score": 204
+    },
+    {
+      "wallet_id": "0x22d7510588d90ed5a87e0f838391aaafa707c34b",
+      "score": 205
+    },
+    {
+      "wallet_id": "0xa98dc64bb42575efec7d1e4560c029231ce5da51",
+      "score": 207
+    },
+    {
+      "wallet_id": "0x26750f1f4277221bdb5f6991473c6ece8c821f9d",
+      "score": 208
+    },
+    {
+      "wallet_id": "0x4e61251336c32e4fe6bfd5fab014846599321389",
+      "score": 208
+    }
+  ]
+}

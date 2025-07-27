@@ -1,0 +1,24 @@
+{
+  "execution_summary": {
+    "timestamp": "2025-07-27T17:21:30.328504",
+    "total_wallets_processed": 101,
+    "successful_collections": 101,
+    "average_score": 272.33663366336634,
+    "score_distribution": {
+      "min": "183",
+      "max": "485",
+      "median": 256.0,
+      "std": 65.80916003532073
+    }
+  },
+  "risk_distribution": {
+    "low_risk (0-250)": 42,
+    "medium_risk (251-750)": 59,
+    "high_risk (751-1000)": 0
+  },
+  "data_quality": {
+    "success_rate": 1.0,
+    "total_compound_wallets": 37,
+    "completion_timestamp": "2025-07-27T17:21:27.889359"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "test_timestamp": "2025-07-27T16:50:43.019828",
+  "tests_run": [
+    {
+      "name": "Initialization",
+      "status": "PASSED"
+    },
+    {
+      "name": "Score Calculation",
+      "status": "PASSED"
+    },
+    {
+      "name": "Score Explanation",
+      "status": "PASSED"
+    },
+    {
+      "name": "Feature Engineer Integration",
+      "status": "PASSED"
+    },
+    {
+      "name": "Batch Scoring",
+      "status": "PASSED"
+    },
+    {
+      "name": "Edge Cases",
+      "status": "PASSED"
+    },
+    {
+      "name": "Scoring Consistency",
+      "status": "PASSED"
+    }
+  ],
+  "tests_passed": 7,
+  "tests_failed": 0,
+  "sample_scores": {
+    "high_risk": 885,
+    "low_risk": 143
+  }
+}
